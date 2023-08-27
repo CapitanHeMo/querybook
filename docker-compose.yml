@@ -1,6 +1,6 @@
 version: '2.1'
 
-x-querybook-image: &querybook-image querybook:latest
+x-querybook-image: &querybook-image querybook/querybook:latest
 x-querybook-depends-on: &querybook-depends-on
     mysql:
         condition: service_healthy
